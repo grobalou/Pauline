@@ -1,0 +1,64 @@
+a.btn {
+	text-decoration: none;  
+	display: inline-block;   
+}
+
+
+h1
+{
+	color: red;
+}
+
+body {
+	
+
+	background: linear-gradient(135deg, #c266ea 0%, #764ba2 100%);
+
+
+}
+
+#bouton
+{
+
+	width: 800px;
+	margin:0 auto;
+	text-align: center;
+	align-content: center;
+	font-size: x-large;
+
+}
+
+.btn {
+	display: block;
+	margin: 150px auto 0;
+	font-size: 30px;
+	font-weight: lighter;
+	color:#333;
+	padding: 25px 80px;
+	background: #ffd17b;
+	outline: none;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	position: relative;
+	box-shadow: 0 6px #efa424;
+	font-weight: bold;
+
+}
+.btn:hover {
+   box-shadow: 0 4px #efa424;
+   top: 2px; 
+} 
+.btn:active {
+    box-shadow: 0 0 #efa424;
+    top: 6px; 
+
+}
+#evilbouton {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2rem;
+	cursor: pointer;
+}
